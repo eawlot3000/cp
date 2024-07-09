@@ -1,0 +1,15 @@
+n = int(input())
+arr = input().split()
+ret = []
+for s in range(len(arr)):
+  ret = arr
+for j in ret:
+  for i in range(len(ret)):
+    if j == ret[i]
+      del ret[i]
+print(ret)
+
+'''
+for i in set(ret):
+  print(i,end = ' ')
+'''

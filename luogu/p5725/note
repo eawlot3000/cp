@@ -1,0 +1,16 @@
+in python:
+* what is "%02d"
+e.g. print("%02d")
+----
+
+try
+```python
+for i in range(1,101):
+  print("%03d"%i)
+# ----
+for i in range(1,101):
+  print(i)
+```
+
+
+
