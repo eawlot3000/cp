@@ -10,4 +10,6 @@ print(result)
 
 # this is wrong!
 #print(d[i] if i in d else chr(ord(i)+3) for i in a)
+# this is correct. use this:
+#print(''.join(d[i] if i in d else chr(ord(i)+3) for i in a))
 
